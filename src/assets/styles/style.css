@@ -1,0 +1,363 @@
+
+@media screen and (min-width: 500px) { 
+    .header {
+        width: 95%;
+        position: absolute;
+        color: white;
+        z-index: 5;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+       
+    }
+    .leftPart{
+        display: flex;
+        font-size: 30px;
+        font-weight: bold;
+        align-items: center;
+       
+    }
+
+    .IconHeader {
+        filter: saturate(0);
+        width: 2rem;
+        height: 2rem;
+        padding-right: 1rem;
+       
+
+    }
+    .container {
+        font-style: "roboto";
+        margin: 0;
+        padding: 0;
+    }
+
+    .spanTitle {
+        color: aqua;
+    }
+
+    .aboutTitle {
+        color: white;
+        font-size: 40px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .aboutText {
+        color: white;
+    }
+
+    .texteAboutContainer {
+        z-index: 5;
+        position: absolute;
+        padding-top: 16rem;
+        padding-left: 15rem;
+    }
+
+    .about {
+        position: relative;
+    }
+    .imgAbout {
+        width: 100%;
+        height: auto;
+        z-index: 1;
+
+    }
+    .primaryButton {
+        background-color: orange;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+    }
+
+    .primaryButton:hover {
+        background-color: white;
+        color: orange;
+       
+    }
+
+    .secondaryButton {
+        padding: 10px 20px;
+        border-radius: 0;
+        border: none
+    }
+
+    .secondaryButton:hover {
+        background-color:  black;
+        color: white;  
+    }
+
+    .newArrivalContainer {
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .textNewArrival {
+        text-align: center;
+    }
+
+    .containerAnimalImg {
+        border: 2px solid rgb(201, 191, 191);
+        width: 12rem;
+        height: 12rem;
+        margin: 5px;
+    }
+
+    .titleNewArrival {
+        font-weight: bold;
+        display: flex;
+    }
+
+    .animals {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        font-weight: bold;
+        padding: 2rem 0;
+        
+    }
+
+    .imgAnimal {
+        padding-top: 3rem;
+    }
+
+    .imgAnimalBird {
+        padding-top: 3rem;
+        width: 6rem;
+
+    }
+
+    .imgAnimalBirdTitle {
+        width: 2rem;
+        padding-right: 5px;
+    }
+
+    .containerTextOurBirds {
+        z-index: 5;
+        position: absolute;
+        padding-top: 5rem;
+        display: flex;
+        margin: 0 10rem;
+    }
+
+    .containerBirdText {
+        color: white;
+        width: 60%;
+    }
+
+    .imgAboutOurBird {
+        width: 30rem;
+        margin-left: 2rem;
+    }
+
+    .orangeText {
+        color: orange;
+        padding-right: 5px;
+    }
+
+    .titleWithImage {
+        display: flex;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .one {
+        grid-column: 1 / 3;
+        grid-row: 1;
+      }
+      .two {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+      }
+      .three {
+        grid-column: 1;
+        grid-row: 2 / 5;
+      }
+      .four {
+        grid-column: 2 / 3;
+        grid-row:2
+      }
+      .five {
+        grid-column:  3;
+        grid-row: 3;
+      }
+      .six {
+        grid-column: 3;
+        grid-row: 2;
+      }
+}
+
+@media screen and (max-width: 500px) { 
+    .containerWrapper {
+        display: none;
+    }
+    .header {
+        width: 95%;
+        position: absolute;
+        color: white;
+        z-index: 5;
+        display: flex;
+        justify-content: space-between;
+        
+       
+    }
+    .leftPart{
+        display: flex;
+        font-size: 10px;
+        font-weight: bold;
+        align-items: center;
+       
+    }
+
+    .IconHeader {
+        filter: saturate(0);
+        width: 2rem;
+        height: 2rem;
+        padding-right: 1rem;
+       
+
+    }
+    
+    .spanTitle {
+        color: aqua;
+    }
+
+    .aboutTitle {
+        color: white;
+        font-size: 15px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .aboutText {
+        color: white;
+    }
+
+    .texteAboutContainer {
+        z-index: 5;
+        position: absolute;
+        padding-top: 4rem;
+        padding-left: 1rem;
+        font-size: 10px;
+    }
+
+    .about {
+        position: relative;
+    }
+    .imgAbout {
+        width: 100%;
+        height: auto;
+        z-index: 1;
+
+    }
+    .primaryButton {
+        background-color: orange;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        font-size: 10px;
+    }
+
+    .primaryButton:hover {
+        background-color: white;
+        color: orange;
+       
+    }
+
+    .secondaryButton {
+        padding: 5px 10px;
+        border-radius: 0;
+        border: none;
+        font-size: 10px;
+    }
+
+    .secondaryButton:hover {
+        background-color:  black;
+        color: white;  
+    }
+
+
+    .newArrivalContainer {
+        display: none;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .textNewArrival {
+        text-align: center;
+    }
+
+    .containerAnimalImg {
+        border: 2px solid rgb(201, 191, 191);
+        width: 12rem;
+        height: 12rem;
+        margin: 5px;
+    }
+
+    .titleNewArrival {
+        font-weight: bold;
+        display: flex;
+    }
+
+    .animals {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+
+    .imgAnimal {
+        padding-top: 3rem;
+    }
+
+    .imgAnimalBird {
+        padding-top: 3rem;
+        width: 6rem;
+
+    }
+
+    .imgAnimalBirdTitle {
+        width: 2rem;
+        padding-right: 5px;
+    }
+
+
+    .containerTextOurBirds {
+        z-index: 5;
+        position: absolute;
+        display: flex;
+    }
+
+    .containerBirdText {
+        color: white;
+        width: 100%;
+    }
+
+    .imgAboutOurBird {
+        display: none;
+    }
+
+    .orangeText {
+        color: orange;
+        padding-right: 5px;
+    }
+
+    .titleWithImage {
+        display: flex;
+    }
+
+}
